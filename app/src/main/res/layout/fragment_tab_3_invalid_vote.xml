@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pawdaw.election_calculator.controller.SumUpActivity">
+
+    <TextView
+        android:text="Invalid Votes :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#5C7785"
+        android:id="@+id/invalid_vote" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#5C7785"
+        android:id="@+id/amount"
+        android:text="amount"
+        android:layout_alignBaseline="@+id/invalid_vote"
+        android:layout_alignBottom="@+id/invalid_vote"
+        android:layout_toRightOf="@+id/invalid_vote"
+        android:layout_toEndOf="@+id/invalid_vote"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp" />
+
+
+</RelativeLayout>

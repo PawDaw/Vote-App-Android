@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/bar_char"
+        android:orderInCategory="100"
+        android:icon="@drawable/log_out"
+        app:showAsAction="always"
+        android:checkable="false"
+        android:onClick="logOut_menu_icon" />
+
+    <item android:id="@+id/bar_char_2"
+        android:orderInCategory="100"
+        android:icon="@drawable/bar_chart"
+        app:showAsAction="always"
+        android:checkable="false"
+        android:onClick="bar_car_menu_icon" />
+</menu>

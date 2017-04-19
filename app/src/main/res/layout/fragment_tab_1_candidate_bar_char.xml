@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F3F4F4"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:layout_width="match_parent"
+        android:layout_height="436dp"
+        android:id="@+id/bar_char"
+        android:layout_marginTop="10dp"></com.github.mikephil.charting.charts.BarChart>
+
+</LinearLayout>
