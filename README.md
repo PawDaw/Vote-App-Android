@@ -29,7 +29,6 @@ An android app that allows calculating the votes you cast for each candidate run
 <img src="example_5.png" width="350"/>
 <img src="example_6.png" width="350"/>
 <img src="example_7.png" width="350"/>
-<img src="example_8.png" width="550"/>
-
+<img src="example_8.png" width="800"/>
 
 </p>
