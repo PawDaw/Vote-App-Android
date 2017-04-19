@@ -394,7 +394,7 @@ public class Service {
     class JSON_AsyncTask_Main_Activity extends AsyncTask<String, String, JSONObject> {
 
         //URL to get JSON Array
-        private  String url = "http://luzik.comlu.com/android/blocked.xml";
+        private  String url = "http://webtask.future-processing.com:8069/blocked";
         // http://luzik.comlu.com/android/blocked.xml
 
         private ProgressDialog pDialog;
