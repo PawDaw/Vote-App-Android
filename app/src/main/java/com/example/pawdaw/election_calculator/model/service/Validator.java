@@ -5,6 +5,7 @@ import android.content.SharedPreferences;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.example.pawdaw.election_calculator.R;
 import com.example.pawdaw.election_calculator.model.storage.Storage;
 
 import org.joda.time.LocalDate;
@@ -114,7 +115,7 @@ public class Validator {
 
             }
 //            Launching the first time the App requires an internet connection to load important data :-)
-            Toast.makeText(context, "Please connect to the internet, launching the first time the App", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, R.string.toastNoConnection, Toast.LENGTH_SHORT).show();
 
         }
 

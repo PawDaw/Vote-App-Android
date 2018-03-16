@@ -8,7 +8,7 @@
     <string name="error_Pesel_to_short">Pesel number is to short, Enter minimum 11 digits</string>
     <string name="error_Pesel_to_long">"Pesel number is to long, Enter minimum 11 digits"</string>
     <string name="error_Pesel_Invalid">"PESEL number is invalid"</string>
-    <string name="error_To_Young">"You are too young to vote. Your age must be greater than 18 years old."</string>
+    <string name="error_To_Young">"You are too young to vote. You must be greater than 18 years old."</string>
     <string name="error_Pesel_Black_list">"Your PESEL is on the black list. You can not vote."</string>
     <string name="error_Pesel_Voted_pesel">"You already voted. See you next time :-)"</string>
     <string name="error_NO_Interent_to_Load_Data">"No internet connection to load Data"</string>
@@ -24,4 +24,5 @@
     <string name="summarize">Summarize</string>
     <string name="bar_chart">Bar Chart</string>
     <string name="candidates">Candidates</string>
+    <string name="toastNoConnection">Launching the App first time require the internet connection.</string>
 </resources>

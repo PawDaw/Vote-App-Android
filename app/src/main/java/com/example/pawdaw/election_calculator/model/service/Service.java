@@ -502,7 +502,7 @@ public class Service {
     class JSON_AsyncTask_Candidates_Activity extends AsyncTask<String, String, JSONObject> {
 
         //URL to get JSON Array
-        private  String url = "http://luzik.comlu.com/android/candidates.xml";
+        private  String url = "http://webtask.future-processing.com:8069/candidates";
 
         private ProgressDialog dialog;
         private Context context;
